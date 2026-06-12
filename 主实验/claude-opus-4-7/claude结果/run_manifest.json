@@ -1,0 +1,22 @@
+{
+  "run_id": "claude_20260520T081451Z",
+  "model": "claude-opus-4-7",
+  "temperature": 0.7,
+  "repeats": 50,
+  "sleep_seconds": 0.2,
+  "request_timeout": 90.0,
+  "max_tokens": 2048,
+  "input_jsonl": "llm_prompt_templates.jsonl",
+  "prompt_count": 25,
+  "output_dir": "formal_outputs_claude",
+  "started_utc": "2026-05-20T08:14:51.488714+00:00",
+  "schema_tasks": [
+    "bart",
+    "ddt",
+    "nback",
+    "questionnaire",
+    "stroop"
+  ],
+  "api_base_url_set": true,
+  "api_key_source": "environment"
+}
