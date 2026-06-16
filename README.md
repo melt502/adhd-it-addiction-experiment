@@ -370,7 +370,7 @@ If you use this code or data in your research, please cite:
 @misc{adhd-ia-llm-simulation,
   author = {Tian, Songjie},
   title = {ADHD and Internet Addiction LLM Simulation Experiments},
-  year = {2024},
+  year = {2026},
   publisher = {GitHub},
   url = {https://github.com/melt502/adhd-it-addiction-experiment}
 }
