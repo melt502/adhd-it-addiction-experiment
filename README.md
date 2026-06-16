@@ -376,10 +376,6 @@ If you use this code or data in your research, please cite:
 }
 ```
 
-## 📄 License
-
-[Specify your license here]
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
