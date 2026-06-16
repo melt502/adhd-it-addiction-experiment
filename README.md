@@ -15,19 +15,19 @@ The project uses LLMs to simulate behavioral and cognitive profiles associated w
 ## 🗂️ Repository Structure
 
 ```
-├── 主实验/                          # Main experiments (all 5 models)
+├── main_experiment/                 # Main experiments (all 5 models)
 │   ├── deepseek-v4pro/              # DeepSeek v4 Pro experiments
 │   ├── qwen-plus/                   # Qwen Plus experiments
 │   ├── gpt-5.5/                     # GPT-5.5 experiments
 │   ├── minimax-m2.5/                # MiniMax M2.5 experiments
 │   └── claude-opus-4-7/             # Claude Opus 4.7 experiments
-├── 消融实验/                        # Ablation experiments
+├── ablation_experiment/             # Ablation experiments
 │   ├── deepseekv4-pro/              # DeepSeek ablation results
 │   ├── minimax-m2.5/                # MiniMax ablation results
 │   ├── qwen-plus/                   # Qwen Plus ablation results
 │   ├── llm_prompt_templates_ablation_5conditions.jsonl
 │   └── token_optimized_ablation_runner.py
-├── 个体预测/                        # Individual prediction experiments
+├── individual_prediction/           # Individual prediction experiments
 │   ├── internet_addiction_experiment_package(1)/
 │   │   └── internet_addiction_experiment_package/
 │   │       ├── run_ia_experiment.py
@@ -151,7 +151,7 @@ The main experiments test **five LLM models** on ADHD and internet addiction pro
 
 #### DeepSeek v4 Pro
 ```bash
-cd 个体预测/internet_addiction_experiment_package(1)/internet_addiction_experiment_package/
+cd individual_prediction/internet_addiction_experiment_package(1)/internet_addiction_experiment_package/
 
 export DEEPSEEK_API_KEY="your_deepseek_key"
 
@@ -282,7 +282,7 @@ python validate_strict_ia_outputs.py \
 ### Main / Ablation / Cue Analysis
 
 ```bash
-cd 个体预测/internet_addiction_experiment_package(1)/internet_addiction_experiment_package/
+cd individual_prediction/internet_addiction_experiment_package(1)/internet_addiction_experiment_package/
 
 python analyze_ia_profile_ablation_cue.py \
   --human-input ia_individual_prediction_input_with_labels.csv \
@@ -298,6 +298,8 @@ python analyze_ia_profile_ablation_cue.py \
 ### Individual Prediction Analysis
 
 ```bash
+cd individual_prediction/internet_addiction_experiment_package(1)/internet_addiction_experiment_package/
+
 python analyze_ia_individual_prediction.py \
   --human-input ia_individual_prediction_input_with_labels.csv \
   --llm-csv \
