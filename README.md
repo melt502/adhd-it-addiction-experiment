@@ -55,7 +55,11 @@ The project uses LLMs to simulate behavioral and cognitive profiles associated w
 │   ├── qwen_plus_cue_8conditions_core3/
 │   ├── qwenplus_individual_only/
 │   ├── qwenplus_individual_plusslabel/
-│   └── minimax_m25_main/
+│   ├── minimax_m25_main/
+│   ├── minimax_ablation/
+│   ├── minimax_cue_full/
+│   ├── minimax_individual_qonly/
+│   └── minimax_individual_plus_label/
 └── internet_addiction_deepseek_strict_package(1)/  # DeepSeek strict range validation
     └── internet_addiction_deepseek_strict_package/
         ├── deepseek_ia_strict_runner.py
@@ -247,7 +251,7 @@ python cue_competition_runner.py \
 
 ### DeepSeek Strict Range Validation
 
-The DeepSeek strict range package addresses numeric range validity issues:
+The `internet_addiction_deepseek_strict_package(1)` folder contains rerun experiments created because the initial runs did not explicitly constrain valid numeric output ranges. That omission caused many invalid or out-of-range model outputs, so this package reruns the affected DeepSeek experiments with explicit hard range constraints and local validation. Invalid samples are rejected and logged rather than clamped.
 
 ```bash
 cd internet_addiction_deepseek_strict_package\(1\)/internet_addiction_deepseek_strict_package/
