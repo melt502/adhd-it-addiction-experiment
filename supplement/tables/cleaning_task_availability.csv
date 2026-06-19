@@ -1,0 +1,8 @@
+﻿task_block,n_liberal_available,n_strict_valid,n_total_experiment_ids,strict_loss
+Stroop,126,124,157,2
+BART,111,111,157,0
+n-back,109,109,157,0
+DDT,126,96,157,30
+Dot/Stop lower,111,111,157,0
+Dot/Stop upper,109,109,157,0
+CPT parsed doc,112,112,157,0

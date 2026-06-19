@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, aggregate data, prompts, or outputs, please cite this repository and the associated manuscript."
+title: "ADHD and Problematic Digital Use LLM Simulation Experiments"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Wei
+  - family-names: Tian
+    given-names: Songjie
+  - family-names: Zhao
+    given-names: Chenguang
+  - family-names: Long
+    given-names: Yangjing
+repository-code: "https://github.com/melt502/adhd-it-addiction-experiment"
+url: "https://github.com/melt502/adhd-it-addiction-experiment"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-19"
+keywords:
+  - large language models
+  - simulated participants
+  - ADHD-related traits
+  - problematic digital use
+  - cue contribution
+  - predictive validity

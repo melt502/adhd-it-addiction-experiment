@@ -1,0 +1,6 @@
+﻿comparison,n_pair,n_nonzero_diff,max_abs_diff,pearson_r,decision
+CIAS_total vs CIAS_total_alt_CPTmerge,106,100,42.0,0.7346917870413436,不作为主分析；疑似另一次合并/中间表，与原始问卷总分不一致。
+Young_total vs Young_total_alt_CPTmerge,106,72,6.0,0.6719894132769583,不作为主分析；疑似另一次合并/中间表，与原始问卷总分不一致。
+DSM_total1 vs DSM_total1_alt_CPTmerge,106,84,5.0,0.6611626127343917,不作为主分析；疑似另一次合并/中间表，与原始问卷总分不一致。
+DSM_total2 vs DSM_total2_alt_CPTmerge,106,76,7.0,0.6704145793993133,不作为主分析；疑似另一次合并/中间表，与原始问卷总分不一致。
+CAARS_total vs CAARS_total_alt_CPTmerge,106,101,30.0,0.7225560415993969,不作为主分析；疑似另一次合并/中间表，与原始问卷总分不一致。
