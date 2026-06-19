@@ -1,0 +1,219 @@
+﻿variable,description
+main_id,Linking ID only; no name/contact included.
+experiment_id,Linking ID only; no name/contact included.
+age_sav,
+sex_sav,
+age_exp,
+sex_exp,
+age_diff_exp_vs_sav,
+sex_diff_exp_vs_sav,
+source_exp,
+parent_edu_exp,
+only_child_exp,
+family_type_exp,
+family_econ_exp,
+internet_years_exp,
+internet_time_recent_exp,
+comorb_depression,
+comorb_anxiety,
+comorb_learning_disability,
+comorb_conduct,
+comorb_odd,
+comorb_substance,
+comorb_gambling,
+group_code,Experimental group coding; mapping is provisional and must be confirmed.
+group_label_tentative,Experimental group coding; mapping is provisional and must be confirmed.
+group_adhd_like_tentative,Experimental group coding; mapping is provisional and must be confirmed.
+group_ia_comorbid_tentative,Experimental group coding; mapping is provisional and must be confirmed.
+CPT_label_raw,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CPT_label_clean,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CPT_label_certainty,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CPT_class_strict,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CPT_class_broad,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CPT_ADHD_strict,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CPT_ADHD_broad,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CIAS_total,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+CIAS_sub1_file,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+CIAS_sub2_file,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+CIAS_sub3_file,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+CIAS_sub4_file,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+CIAS_sub5_file,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+Young_total,"Young Internet Addiction diagnostic questionnaire total, inferred from YOUNGSUM/Y-items."
+DSM_total1,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+DSM_total2,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+CAARS_total,"CAARS/ADHD trait total, inferred from CAARSSUM/C-items."
+CIAS_total_sav,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+Young_total_sav,"Young Internet Addiction diagnostic questionnaire total, inferred from YOUNGSUM/Y-items."
+DSM_total1_sav,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+DSM_total2_sav,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+CAARS_total_sav,"CAARS/ADHD trait total, inferred from CAARSSUM/C-items."
+CIAS_total_file,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+Young_total_file,"Young Internet Addiction diagnostic questionnaire total, inferred from YOUNGSUM/Y-items."
+DSM_total1_file,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+DSM_total2_file,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+CAARS_total_file,"CAARS/ADHD trait total, inferred from CAARSSUM/C-items."
+stroop_b1acc,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_b1rt,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_b2acc,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_b2rt,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_y1acc,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_y1rt,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_y2acc,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_y2rt,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_z1acc,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_z1rt,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_z2acc,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_z2rt,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_b_acc_mean,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_y_acc_mean,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_z_acc_mean,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_b_rt_mean,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_y_rt_mean,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_z_rt_mean,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_acc_mean_all,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_rt_mean_all,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_rt_spread_maxmin,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_valid_liberal,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_flag_low_accuracy_any,Stroop summary metric from spreadsheet. Trial-level data not available.
+stroop_valid_strict,Stroop summary metric from spreadsheet. Trial-level data not available.
+bart_total_earnings,BART/risk-taking summary metric.
+bart_explosions,BART/risk-taking summary metric.
+bart_unexploded_total_pumps,BART/risk-taking summary metric.
+bart_adj_avg_pumps,BART/risk-taking summary metric.
+bart_valid_liberal,BART/risk-taking summary metric.
+bart_valid_strict,BART/risk-taking summary metric.
+nback_acc0,n-back working memory summary metric.
+nback_acc1,n-back working memory summary metric.
+nback_acc2,n-back working memory summary metric.
+nback_acc3,n-back working memory summary metric.
+nback_acc,n-back working memory summary metric.
+nback_rt0,n-back working memory summary metric.
+nback_rt1,n-back working memory summary metric.
+nback_rt2,n-back working memory summary metric.
+nback_rt3,n-back working memory summary metric.
+nback_rt,n-back working memory summary metric.
+nback_rts0,n-back working memory summary metric.
+nback_rts1,n-back working memory summary metric.
+nback_rts2,n-back working memory summary metric.
+nback_rts3,n-back working memory summary metric.
+nback_rts,n-back working memory summary metric.
+nback_dprime0,n-back working memory summary metric.
+nback_dprime1,n-back working memory summary metric.
+nback_dprime2,n-back working memory summary metric.
+nback_dprime3,n-back working memory summary metric.
+nback_dprime,n-back working memory summary metric.
+nback_beta0,n-back working memory summary metric.
+nback_beta1,n-back working memory summary metric.
+nback_beta2,n-back working memory summary metric.
+nback_beta3,n-back working memory summary metric.
+nback_beta,n-back working memory summary metric.
+nback_acc_load_drop_3minus0,n-back working memory summary metric.
+nback_rt_load_increase_3minus0,n-back working memory summary metric.
+nback_dprime_load_drop_3minus0,n-back working memory summary metric.
+nback_valid_liberal,n-back working memory summary metric.
+nback_valid_strict,n-back working memory summary metric.
+ddt_sum_full,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_k_full,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_lnk_full,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_fit_r2_full,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_assigned_k_full,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_sv_5s,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_sv_10s,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_sv_20s,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_sv_30s,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_sv_60s,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_sum_clean,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_k_clean,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_lnk_clean,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_log10k_clean,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_fit_r_clean,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_sum,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_k,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_lnk,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_fit_r,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_valid_liberal,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_valid_k,Delay discounting task metric. Cleaned sheet preferred when available.
+ddt_valid_strict,Delay discounting task metric. Cleaned sheet preferred when available.
+dot_xia_type_code,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_class_code,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_age,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_sex,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_ACCxia,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_pot右xia,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_pot左xia,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_yizhixingxia,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_1右,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_2右,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_1左,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_2左,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_xia3,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_xia4,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_xia5,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_xia6,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_valid_liberal,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_xia_valid_strict,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_type_code,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_class_code,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_age,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_sex,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_ACCshang,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_pot右shang,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_pot左shang,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_yizhixingshang,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_1右,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_2右,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_1左,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_2左,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_shang3,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_shang4,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_shang5,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_shang6,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_valid_liberal,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+dot_shang_valid_strict,Dot-probe/stop-signal summary metric; exact task coding needs codebook confirmation.
+cpt_file,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_parse_ok,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_report_number,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_report_sex,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_report_age_text,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_report_age_years,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_report_date,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_comprehension_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_comprehension_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_control_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_attention_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_control_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_attention_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_control_combined,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_attention_combined,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_prudence_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_prudence_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_alertness_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_alertness_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_consistency_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_consistency_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_attention_q_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_attention_q_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_persistence_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_persistence_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_speed_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_speed_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_balance,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_agility_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_agility_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_sustained_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_sensorimotor_auditory,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_sustained_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_sensorimotor_visual,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_hyperactivity_events,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_hyperactivity_quotient,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+cpt_doc_valid,"CPT label/report metric. C=Combined, I=Inattentive, N=Normal; ? indicates uncertain/unknown."
+CIAS_total_range_ok,"CIAS/Chen Internet Addiction Scale total/subscale, inferred from CIASSUM/I-items."
+Young_total_range_ok,"Young Internet Addiction diagnostic questionnaire total, inferred from YOUNGSUM/Y-items."
+DSM_total1_range_ok,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+DSM_total2_range_ok,"DSM-related internet/gaming/addiction criterion score, inferred from DSMSUM/D-items."
+CAARS_total_range_ok,"CAARS/ADHD trait total, inferred from CAARSSUM/C-items."
+n_task_blocks_liberal,
+n_task_blocks_strict,
+cold_exec_index_z,
+hot_reward_index_z,
+attention_cpt_index_z,

@@ -1,0 +1,6 @@
+﻿metric,col,n_Normal,n_ADHD_IC,mean_Normal,mean_ADHD_IC,raw_contrast,pooled_SD,Cohen_d,Hedges_g,g_95CI_lo,g_95CI_hi,Welch_t,Welch_p,Welch_p_formatted
+Stroop accuracy (mean all),stroop_acc_mean_all,32,64,0.9848,0.9805,-0.0043,0.0193,-0.2215,-0.2198,-0.6453,0.2058,-1.1511,0.25293529549930394,0.2529
+Stroop mean RT (ms),stroop_rt_mean_all,32,64,756.2645,766.013,9.7485,156.3224,0.0624,0.0619,-0.3626,0.4863,0.289,0.7735607968503606,0.7736
+n-back overall accuracy,nback_acc,32,63,0.9413,0.9129,-0.0283,0.0384,-0.7376,-0.7317,-1.17,-0.2934,-3.9302,0.00016760067238523384,1.6760e-04
+BART adjusted average pumps,bart_adj_avg_pumps,33,65,35.0047,27.92,-7.0847,12.5887,-0.5628,-0.5584,-0.9847,-0.132,-2.4406,0.01804421703638163,0.0180
+DDT discounting k,ddt_k,27,50,0.0519,0.0442,-0.0077,0.0271,-0.2845,-0.2817,-0.7519,0.1886,-1.124,0.2669408924042903,0.2669

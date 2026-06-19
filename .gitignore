@@ -1,0 +1,44 @@
+# Local/editor files
+.idea/
+.claude/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Secrets and local environment
+.env
+*.key
+*.pem
+
+# Raw or potentially identifiable human data
+111/
+raw_data/
+*原始数据*/
+*.doc
+
+# Raw/intermediate ADHD human-data cleaning outputs
+# Curated aggregate exports are copied to supplement/.
+ADHD_cleaned_outputs/
+
+data_analysis_supplement.md
+
+# Local manuscript drafts and temporary Word files
+~$*.docx
+LLM_ADHD612_AMPPS_stats_PDU_Lin_revised*.docx
+
+# Scratch files generated during manuscript editing
+1.py
+manuscript_extracted_for_polishing.md
+polish_manuscript_docx.py
+apply_ampps_feedback.py
+fix_references.py
+update_manuscript_docx.py
+update_author_contribution.py
+apply_final_manuscript_edits.py
+final_check_manuscript_docx.py
+
+# Keep the curated submission copy under manuscript/
+!manuscript/*.docx
